@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.spectral8420.noelytraduringcombat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerFlightMixin",
+    "LivingEntityFlightMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

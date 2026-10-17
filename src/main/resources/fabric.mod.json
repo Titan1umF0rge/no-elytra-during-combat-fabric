@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "noelytraduringcombat",
+  "version": "${version}",
+  "name": "No Elytra During Combat",
+  "description": "Prevents players from using Elytras while in combat.",
+  "authors": [
+    "spectral8420",
+    "Cvahotni"
+  ],
+  "contact": {
+    "sources": "https://github.com/Cvahotni/NoElytraDuringCombat"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.spectral8420.noelytraduringcombat.NoElytraDuringCombat"
+    ]
+  },
+  "mixins": [
+    "noelytraduringcombat.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

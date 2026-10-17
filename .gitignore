@@ -1,0 +1,12 @@
+.gradle/
+build/
+bin/
+run/
+out/
+.idea/
+*.ipr
+*.iws
+*.iml
+.vscode/
+temp_paper_repo/
+temp_fabric_example/
